@@ -48,7 +48,7 @@ validate: ## Execute git-hooks
 .PHONY: inspec-init
 inspec-init: ## Initialize
 	@echo -e "$(OK_COLOR)Install requirements$(NO_COLOR)"
-	@gem install inspec inspec-bin bundler
+	@gem install bundler
 
 .PHONY: inspec-deps
 inspec-deps: ## Install requirements
